@@ -150,7 +150,7 @@ class TransformerPageController extends PageController {
       double? page, bool loop, int? itemCount, bool reverse) {
     double? renderPage;
     if (loop) {
-      renderPage = page! - kMiddleValue;
+      renderPage = page ?? 0.0 - kMiddleValue;
       renderPage = renderPage % itemCount!;
       if (renderPage < 0) {
         renderPage += itemCount;
