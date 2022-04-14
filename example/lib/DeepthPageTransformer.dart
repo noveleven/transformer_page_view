@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 
 import 'package:transformer_page_view/transformer_page_view.dart';
 
-import 'package:flutter/cupertino.dart';
-
 // 1111111 !!!!!!
 
 void main() => runApp(new MyApp());

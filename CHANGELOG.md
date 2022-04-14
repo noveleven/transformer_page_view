@@ -1,3 +1,7 @@
+## [1.0.0] - [2022.04.15]
+
+    * Fix null safety support
+
 ## [0.1.6] - [2019.03.22]
 
     * Fix setState() called after dispose()
